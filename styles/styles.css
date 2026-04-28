@@ -44,12 +44,6 @@
   --nav-height: 112px;
 }
 
-main .button-container { display: inline; }
-main a.button:any-link {
-  background: none; border: none; border-radius: 0;
-  color: var(--link-color); font-size: inherit; font-weight: inherit;
-  padding: 0; margin: 0; text-decoration: underline; white-space: normal;
-}
 
 /* fallback fonts */
 @font-face {
