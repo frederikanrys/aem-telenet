@@ -20,6 +20,8 @@
   --text-color: rgb(0, 0, 0);
   --link-color: rgb(41, 29, 24);
   --link-hover-color: rgb(41, 29, 24);
+  --button-color: #1870d5;
+  --button-hover-color: #1260b8;
 
   /* fonts */
   --body-font-family: "telenet-albra-sans", "Helvetica Neue", helvetica, verdana, arial, sans-serif;
@@ -208,8 +210,8 @@ button.button:disabled {
 
 a.button.primary,
 button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
+  border-color: var(--button-color);
+  background-color: var(--button-color);
   color: var(--background-color);
 }
 
@@ -217,9 +219,9 @@ a.button.primary:hover,
 a.button.primary:focus-visible,
 button.button.primary:hover,
 button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
+  border-color: var(--button-hover-color);
+  background-color: var(--button-hover-color);
+  color: var(--background-color);
 }
 
 a.button.primary[aria-disabled="true"],
@@ -235,18 +237,18 @@ button.button.primary:disabled:focus-visible {
 
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
+  border-color: var(--button-color);
   background-color: transparent;
-  color: var(--text-color);
+  color: var(--button-color);
 }
 
 a.button.secondary:hover,
 a.button.secondary:focus-visible,
 button.button.secondary:hover,
 button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
+  border-color: var(--button-hover-color);
   background-color: var(--light-color);
-  color: var(--dark-color);
+  color: var(--button-hover-color);
 }
 
 a.button.secondary[aria-disabled="true"],
