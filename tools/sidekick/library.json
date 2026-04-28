@@ -1,0 +1,28 @@
+{
+  "total": 17,
+  "offset": 0,
+  "limit": 17,
+  "data": [
+    { "name": "Hero", "path": "/tools/sidekick/blocks/hero" },
+    { "name": "Accordion", "path": "/tools/sidekick/blocks/accordion" },
+    { "name": "Account Hub", "path": "/tools/sidekick/blocks/account-hub" },
+    { "name": "Articles", "path": "/tools/sidekick/blocks/articles" },
+    { "name": "Banner", "path": "/tools/sidekick/blocks/banner" },
+    { "name": "Cards", "path": "/tools/sidekick/blocks/cards" },
+    { "name": "Columns", "path": "/tools/sidekick/blocks/columns" },
+    { "name": "Devices", "path": "/tools/sidekick/blocks/devices" },
+    { "name": "Footer Links", "path": "/tools/sidekick/blocks/footer-links" },
+    { "name": "Fragment", "path": "/tools/sidekick/blocks/fragment" },
+    { "name": "Help Links", "path": "/tools/sidekick/blocks/help-links" },
+    { "name": "Intent Finder", "path": "/tools/sidekick/blocks/intent-finder" },
+    { "name": "Promo Cards", "path": "/tools/sidekick/blocks/promo-cards" },
+    { "name": "Promos", "path": "/tools/sidekick/blocks/promos" },
+    { "name": "Tabs", "path": "/tools/sidekick/blocks/tabs" },
+    { "name": "Ticker", "path": "/tools/sidekick/blocks/ticker" },
+    { "name": "Value Props", "path": "/tools/sidekick/blocks/value-props" },
+    { "name": "Web Deals", "path": "/tools/sidekick/blocks/webdeals" },
+    { "name": "Section Metadata", "path": "/tools/sidekick/blocks/section-metadata" }
+  ],
+  "columns": ["name", "path"],
+  ":type": "sheet"
+}
