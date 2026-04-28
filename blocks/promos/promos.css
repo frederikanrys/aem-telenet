@@ -78,9 +78,9 @@
 
 main .section > .promos-wrapper + .default-content-wrapper a.button:any-link {
   background: none;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid var(--button-color);
   border-radius: 2.4em;
-  color: rgb(0, 0, 0);
+  color: var(--button-color);
   padding: 10px 24px;
   font-weight: 500;
   font-size: var(--body-font-size-s);

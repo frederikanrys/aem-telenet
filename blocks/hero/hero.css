@@ -12,7 +12,7 @@
 .hero {
   --hero-bg: #faeb50;
   --hero-text: #000;
-  --hero-btn-bg: #000;
+  --hero-btn-bg: var(--button-color);
   --hero-btn-color: #fff;
   --hero-btn-radius: 12px;
 
