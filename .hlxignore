@@ -1,6 +1,8 @@
 .*
 node_modules
 tools
+!tools/sidekick
+!tools/sidekick/**
 *.md
 package.json
 package-lock.json
