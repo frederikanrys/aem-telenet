@@ -1,10 +1,7 @@
 .*
 node_modules
-tools
-!tools/sidekick
-!tools/sidekick/**
-!tools/quick-edit
-!tools/quick-edit/**
+tools/event-creator
+tools/event-creator/**
 *.md
 package.json
 package-lock.json
