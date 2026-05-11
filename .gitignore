@@ -1,2 +1,8 @@
 .DS_Store
+.idea/
 node_modules/
+.claude-plugin/
+.claude/settings.local.json
+
+content
+drafts
