@@ -3,6 +3,8 @@ node_modules
 tools
 !tools/sidekick
 !tools/sidekick/**
+!tools/quick-edit
+!tools/quick-edit/**
 *.md
 package.json
 package-lock.json
